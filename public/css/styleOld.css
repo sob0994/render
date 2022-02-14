@@ -1,0 +1,45 @@
+/* Desktop Version */
+@media (min-width: 992px) {
+  .nav-link:hover{
+    color: palevioletred !important; 
+  }
+  .banner{
+    margin-top: -56px;
+  }
+  .navbar-brand, .nav-link{
+    color: white !important;
+    text-shadow: 2px 2px 2px rgba(56, 56, 56, 0.452) ;
+  }
+
+}
+/* Desktop Version */
+
+.banner{
+  height: 80vh;
+  background-image:linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.5)), url(../../img/3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.banner-content{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.banner-content h1,
+.banner-content p{
+  text-shadow: 2px 2px 2px rgba(56, 56, 56, 0.452);
+}
+.project{
+  height: 100vh;
+  background-image: url(../../img/2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.ourProject{
+  height: 35vh;
+  background-color: rgba(0, 0, 0, 0.473);
+  margin-top: -35vh;
+}
